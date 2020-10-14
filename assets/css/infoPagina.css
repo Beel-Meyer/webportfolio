@@ -1,0 +1,147 @@
+hr{
+    border: 0; 
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 10%;
+    height: .2%; 
+    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), #8c8b8b, rgba(0,0,0,0));
+    background-image: -moz-linear-gradient(left, rgba(0,0,0,0), #8c8b8b, rgba(0,0,0,0));
+    background-image: -ms-linear-gradient(left, rgba(0,0,0,0), #8c8b8b, rgba(0,0,0,0));
+    background-image: -o-linear-gradient(left, rgba(0,0,0,0), #8c8b8b, rgba(0,0,0,0));
+  }
+  
+  .infoMain{
+      font-size: 1.5vw;
+      float: right;
+      width: 87%;
+      font-family: 'Barlow Semi Condensed', sans-serif;
+  }
+  
+  .infoPag {
+      margin: 0px;
+      padding: 0px;
+  }
+  
+  .titInfo {
+    background-image: linear-gradient(to right, rgb(212, 121, 2) .1% , rgb(223, 138, 26) 1%, rgba(223, 138, 26, 0.11) 90%);
+    padding-left: 4.5%;
+    padding-top: .5%;
+    padding-bottom: .5%;
+    margin-bottom: 2%;
+  }
+  
+  .titInfo p {
+    margin: 0px;
+    margin-bottom: .5%;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+  }
+
+  .titInfo h2{
+    font-family: 'Rambla', sans-serif;
+    font-size: 3vw;
+    padding-top: .5%;
+    margin-top: 2%;
+    margin-bottom: -1%;
+  }
+
+  .contenInfo{
+    max-width: 90%;
+    /*margin-left: 9%;*/
+    margin-top: -.5%;
+    padding-left: .5%;
+    padding-right: .5%;
+    /* padding-top: .5%; */
+    padding-bottom: 5%;
+    margin-bottom: 3.5%;
+  }
+
+  .contenInfo2{
+    max-width: 80%;
+    margin-left: 9%;
+    margin-top: -.5%;
+    padding-left: .5%;
+    padding-right: .5%;
+    /* padding-top: .5%; */
+    padding-bottom: 5%;
+    margin-bottom: 3.5%;
+  }
+
+  .InfoPersonal {
+    /* background-color: rgba(255, 255, 255, 0.466); */
+    width: 100%;
+    margin-bottom: 1.5%;
+    text-align: justify;
+  }
+
+  .InfoPersonal img{
+      float: right;
+      position: relative;
+      margin-top: -18%;
+      margin-right: 6.5%;
+      max-width: 15%;
+      border-radius: 50%;
+  }
+
+  .InfoPersonal p {
+      margin: 0px;
+      padding-top: 1%;
+      max-width: 72%;
+  }
+
+  .InfoPersonal span{
+    font-size: 1.1vw;
+    margin-left: 21%;
+  }
+
+  .InfoPersonal a {
+    position: relative;
+    float: right;
+    right: 5%;
+    margin-top: -2%;
+    text-decoration: none;
+    padding: .5%;
+    color: #777;
+    transition: all 0.3s;
+    /* background-color: rgba(223, 138, 26, 0.432); */
+  }
+
+  .InfoPersonal a:hover {
+    background-color: rgb(223, 138, 26);
+    border-radius: 6px;
+    color: black;
+  }
+
+  .profesional, .tecnica, .experiencia{
+    padding-top: 1%;
+  }
+
+  .profesional h2, .tecnica h2, .experiencia h2{
+    margin-left: -11.9%;
+    margin-right: -13.1%;
+    margin-bottom: .5%;
+  }
+  .profesional h3, .tecnica h3, .experiencia h3{
+    margin-top: 1.5%;
+    margin-bottom: .5%;
+  }
+
+  .profesional p, .tecnica p, .experiencia p{
+    padding: 0;
+    margin: 0;
+  }
+
+  .tecnica {
+    text-align: right;
+  }
+
+  .profesional h2, .experiencia h2 {
+    padding-left: 11.9%;
+    background-image: linear-gradient(to right, rgb(212, 121, 2) .1% , rgb(223, 138, 26) 1%, rgba(223, 138, 26, 0.11) 90%)
+  }
+
+  .tecnica h2 {
+    padding-right: 13.1%;
+    background-image: linear-gradient(to left, rgb(212, 121, 2) .1% , rgb(223, 138, 26) 1%, rgba(223, 138, 26, 0.11) 90%)
+  }
+
+  

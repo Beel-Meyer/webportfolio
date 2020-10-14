@@ -1,0 +1,177 @@
+/* -------  sidebar  --------  */
+
+
+.sidenav {
+    height: 100%;
+    width: 13%;
+    /* max-width: 250px; */
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgba(17, 17, 17, 0.788);
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+  .profile{
+    padding-left: 28%;
+    padding-bottom: 5%;
+    cursor: pointer;
+  }
+
+  .logo{
+    width: 15%;
+    padding-left: 25.5%;
+    padding-bottom: 12%;
+    cursor: pointer;
+  }
+
+  .piepag{
+    position: absolute;
+    width: 100%;
+    bottom: 5%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .piepag p{
+    font-family: 'Roboto Condensed';
+    margin-top:1%;
+    margin-bottom: 1%;
+    font-size: .9vw;
+  }
+
+
+  /* Contenido del sidebar */
+
+  /*-----------------Botones Generales/inicio--------*/
+
+  ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+  }
+
+.button {
+    padding: 4% 8%;
+    padding-right: 90%;
+    text-align: left;
+    display: inline-block;
+    font-size: 1.8vw;
+    font-family: 'Staatliches', cursive;
+    color: #818181;
+    margin-bottom: 4%;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+
+  .button1 {
+    background-color: rgba(17, 17, 17, 0.637); 
+    color: #818181; 
+    border: 0px;
+  }
+  
+  .button:hover {
+    background-color: rgb(223, 138, 26);
+    color: white;
+  }
+
+  .buttonActive {
+    background-color: rgb(223, 138, 26);
+    color: white;
+  }
+
+  /*--------------- Botones Filtros (portfolio) -------------------*/
+
+  .buttonF, .buttonA {
+    padding: 4% 8%;
+    padding-right: 90%;
+    text-align: left;
+    display: inline-block;
+    font-size: 1.8vw;
+    font-family: 'Staatliches', cursive;
+    color: #818181;
+    margin-bottom: 4%;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+
+  .button1F, .buttonA1 {
+    background-color: rgba(17, 17, 17, 0.363); 
+    color: #818181; 
+    border: 0px;
+  }
+  
+  .buttonF:hover, .buttonA:hover {
+    background-color: rgba(223, 138, 26, 0.699);
+    color: white;
+  }
+
+  .buttonFActive, .buttonAActive {
+    background-color: rgba(223, 138, 26, 0.699);
+    color: white;
+  }
+
+
+/* ------------------------------------------------------------------------------ */
+
+/* Estilo de lista especifica (second) */
+
+.second {
+    text-align: left;
+    position:static;
+    display: none;
+}
+
+.second li {
+    display: inline-block;
+    /*  width: 100%; */
+}
+.second li p {
+    display: block;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    text-decoration: none;
+    color: #c6c6c6;
+    /* font-weight: 100; */
+    /* font-size: 15px; */
+    margin: 0px;
+}
+.second li p,
+.second li p:after,
+.second li p:before {
+    transition: all .5s;
+}
+
+/* STROKE (Lista especifica) */
+.sidenav ul.second li p {
+    position: relative;
+    cursor: pointer;
+  }
+  .sidenav ul.second li p:after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 0%;
+    content: '.';
+    color: transparent;
+    background: rgb(223, 138, 26);
+    height: 2px;
+  }
+  .sidenav ul.second li p:hover:after {
+    width: 100%;
+  }

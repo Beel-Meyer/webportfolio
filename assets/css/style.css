@@ -1,0 +1,28 @@
+@import url('buttons.css');
+@import url('sidebar.css');
+@import url('main.css');
+@import url('portfolio.css');
+@import url('modal.css');
+@import url('info.css');
+@import url('comis.css');
+@import url('scrollbar.css');
+@import url('animatedfondo.css');
+@import url('botonesRedes.css');
+@import url('portfolioPagina.css');
+@import url('infoPagina.css');
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  margin: 0px;
+  padding: 0px;
+  background-size: 100%;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-image: url(../img/background5b.png);
+  overflow-x: hidden;
+}
+

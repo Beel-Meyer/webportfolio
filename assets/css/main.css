@@ -1,0 +1,20 @@
+
+.main {
+    /*  margin-left: 160px; */ /* Same as the width of the sidenav */
+     font-size: 1.5vw; /* Increased text to enable scrolling */
+     float: right;
+     /* padding: 0px 10px; */
+     max-width: 87%;
+     /* margin-right: 3.5%; */
+   }
+
+.main h2{
+  font-family: 'Rambla', sans-serif;
+  background-image: linear-gradient(to right, rgb(212, 121, 2) .1% , rgb(223, 138, 26) 1%, rgba(223, 138, 26, 0.11) 90%);
+  /* border-radius: 3px; */
+/*   margin-left: -3.71%;
+  margin-right: -7%; */
+  padding-left: 4%;
+  padding-top: .5%;
+  padding-bottom: .5%;
+}

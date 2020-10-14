@@ -1,0 +1,193 @@
+/*   ------ botones ------- */
+
+/* Botones del NAV */
+
+/* .button {
+    padding: 4% 8%;
+    padding-right: 90%;
+    text-align: left;
+    display: inline-block;
+    font-size: 1.8vw;
+    font-family: 'Staatliches', cursive;
+    color: #818181;
+    margin-bottom: 4%;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+
+  .button1 {
+    background-color: rgba(17, 17, 17, 0.637); 
+    color: #818181; 
+    border: 0px;
+  }
+  
+  .button:hover {
+    background-color: rgb(223, 138, 26);
+    color: white;
+  }
+
+  .buttonActive {
+    background-color: rgb(223, 138, 26);
+    color: white;
+  } */
+/* ------------------------------------------------------------------------------ */
+
+/* Botones de VerMas */
+.botonMas {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-style: italic;
+  display: inline-block;
+  /* border-radius: 4px; */ 
+  background-color: transparent;
+  border: none;
+  color: #777;
+  text-align: center;
+  font-size: 1.5vw;
+  padding: 1%;
+  width: 20%;
+  transition: all 0.5s;
+  cursor: pointer;
+  /*   margin: 5px; */
+  margin-top: -.3%;
+  margin-right: 2.4%;
+}
+
+.botonMas span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.botonMas span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -19%;
+  transition: 0.5s;
+  color: rgb(238, 115, 14);
+}
+
+.botonMas:hover {
+  font-style: normal;
+}
+
+.botonMas:hover span {
+  padding-right: 10%;
+  color: rgb(238, 115, 14);
+}
+
+.botonMas:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.botonMas2 {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-style: italic;
+  display: inline-block;
+  border-radius: 4px; 
+  background-color:rgba(17, 17, 17, 0.205);
+  border: none;
+  color: white;
+  text-align: center;
+  font-size: 1.5vw;
+  padding: 1%;
+  width: 20%;
+/*   transition: all 0.5s; */
+  cursor: pointer;
+  margin-top: 1%;
+  /* margin-right: -.5%; */
+  /* transition: 0.5s; */
+}
+
+.botonMas2 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.3s;
+  /* color: black; */
+}
+
+.botonMas2 span:after {
+
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -19%;
+  transition: 0.3s;
+  color: black;
+}
+
+.botonMas2:hover {
+  font-style: normal;
+  background-color: rgb(235, 142, 21);
+  color: black;
+}
+
+.botonMas2:hover span {
+  padding-right: 10%;
+}
+
+.botonMas2:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+.descarga {
+  position: absolute;
+  right: 9%;
+  margin-bottom: 2%;
+  font-family: 'Roboto Condensed', sans-serif;
+  display: inline-block;
+  border-radius: 4px; 
+  background-color:rgba(17, 17, 17, 0.205);
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.5vw;
+  padding: .8%;
+  width: 19%;
+  transition: all 0.3s;
+  cursor: pointer;
+  margin-top: 1%;
+  /* margin-right: -.5%; */
+  /* transition: 0.5s; */
+}
+
+.descarga span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.3s;
+}
+
+.descarga span:after {
+
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -19%;
+  transition: 0.3s;
+  color: black;
+}
+
+.descarga:hover {
+  background-color: rgb(235, 142, 21);
+  color: black;
+}
+
+.descarga:hover span {
+  padding-right: 10%;
+}
+
+.descarga:hover span:after {
+  opacity: 1;
+  right: 0;
+}

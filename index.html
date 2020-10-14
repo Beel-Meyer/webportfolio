@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>-eme-</title>
+  <link rel='shortcut icon' href='assets/img/favicon.png' type='image/x-icon' />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+  <link href="https://fonts.googleapis.com/css?family=Staatliches" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Rambla:700|Roboto+Condensed:400,400i" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+  <canvas></canvas>
+  <div class="sidenav">
+
+     <div class="profile"> <img src="assets/img/toonme.png" alt="autorretrato" width="60%" onclick="window.location.href='index.html'" ></div>
+
+     <div class="logo"> <img src="assets/img/logo.png" alt="logo" width="320%" onclick="window.location.href='index.html'" ></div>
+
+     <!-- <button id="btnInicio" class="button button1" onclick="window.location.href='index.html'" >
+     Inicio
+    </button> -->
+<!--      <button id="btnPort" class="button button1" onclick="selectContent(this.id)">
+    Portfolio
+     </button>
+     <button id="btnInfo" class="button button1" onclick="selectContent(this.id)">
+    Info
+     </button>
+     <button id="btnCom" class="button button1" onclick="selectContent(this.id)">
+     Comisiones
+     </button> -->
+
+
+     <ul>
+       <li id="btnPort" class="button button1" onclick="selectContent(this.id)">Portfolio</li>
+       <li id="btnInfo" class="button button1" onclick="selectContent(this.id)">Info</li>
+       <!-- <li id="btnCom" class="button button1" onclick="selectContent(this.id)">Comisiones</li> -->
+     </ul>
+
+     <div class="ex1">
+      <i class="fa fa-facebook fa-2x" aria-hidden="true"></i>
+      <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
+     </div>
+
+     <div class="piepag"> <p>Hecho por Meyer, M. Belén</p> <p style="font-size: .7vw">con colaboración de Moradillo, Federico</p> <p> 2019 © </p></div>
+         
+  </div>
+      
+  <div class="main">
+
+    <!-- Bloque Portfolio - - - - - - - - - - - - - - - - - - - - - - - -->
+    <div class="portfolio section" id="PRF">
+
+      <h2>    Portfolio <button class="botonMas" style="float: right" onclick="window.location.href='portfolio.html'"><span>ver más trabajos </span></button> </h2>
+
+      <div class="imgPortfolio"> 
+          
+        <div class="row">
+
+          <div class="column">
+            <img src="dibujos/thumbnail4.png" onclick="/* openModal(); */currentSlide(1)" class="imagenPortfolio">
+            <img src="dibujos/thumbnail12.png" onclick="/* openModal(); */currentSlide(4)" class="imagenPortfolio">
+            <img src="dibujos/thumbnail5.png" onclick="/* openModal(); */currentSlide(6)" class="imagenPortfolio">
+          </div>
+
+          <div class="column">
+            <img src="dibujos/thumbnail2.png" onclick="/* openModal(); */currentSlide(2)" class="imagenPortfolio">
+            <img src="dibujos/thumbnail7.png" onclick="/* openModal(); */currentSlide(7)" class="imagenPortfolio">
+          </div>
+
+          <div class="column" style=" float:right">
+            <img src="dibujos/thumbnail13.png" onclick="/* openModal(); */currentSlide(3)" class="imagenPortfolio">
+            <img src="dibujos/thumbnail3.png" onclick="/* openModal(); */currentSlide(5)" class="imagenPortfolio">
+            <img src="dibujos/thumbnail9.png" onclick="/* openModal(); */currentSlide(8)" class="imagenPortfolio">
+          </div>
+              
+        </div>
+
+        <button class="botonMas2" style="float: right; margin-right: -.5%" onclick="window.location.href='portfolio.html'"><span>ver más trabajos </span></button> 
+            
+        <div id="myModal" class="modal" >
+          <span id="closeBtn" class="close cursor">&times;</span>
+
+          <div class="modal-content">
+        
+            <div class="mySlides">
+              <img src="dibujos/dib4.png" class="imagenModal">
+            </div>
+        
+            <div class="mySlides">
+              <img src="dibujos/dib2.png" class="imagenModal">
+            </div>
+        
+            <div class="mySlides">
+              <img src="dibujos/dib13.png" class="imagenModal">
+            </div>
+            
+            <div class="mySlides">
+              <img src="dibujos/dib12.png" class="imagenModal">
+            </div>
+            <div class="mySlides">
+              <img src="dibujos/dib3.png" class="imagenModal">
+            </div>
+        
+            <div class="mySlides">
+              <img src="dibujos/dib5.png" class="imagenModal">
+            </div>
+        
+            <div class="mySlides">
+              <img src="dibujos/dib7.png" class="imagenModal">
+            </div>
+            
+            <div class="mySlides">
+              <img src="dibujos/dib9.png" class="imagenModal">
+            </div>
+            
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bloque Info -------------------------------------------->
+    <div class="info section" id="INF">
+
+      <h2>Información <button class="botonMas" style="float: right" onclick="window.location.href='curriculum.html'"><span>ver currículum </span></button></h2>
+
+      <div class="contenInfo">
+
+        <div class="fondoinfo">
+
+          <div class="column2" style="max-width:39.5%">
+
+            <div class="imgInfo">
+              <img src="assets/img/imgInfo.JPG">
+            </div>
+
+          </div>
+
+          <div class="column2" style="max-width:60%">
+
+            <div class="texto1">
+              <p>Meyer, M. Belén &nbsp&nbsp||&nbsp&nbsp 23 años &nbsp&nbsp||&nbsp&nbsp La Plata, 
+                Bs As, Argentina</p>
+              <p>Ilustración tradicional y digital, variedad de técnicas&nbsp&nbsp||&nbsp&nbsp Diseño 
+                de personajes y/o fondos</p>
+              <p>Nociones sobre la producción de historietas de manera independiente</p>
+              <p>Edición de imágenes &nbsp&nbsp||&nbsp&nbsp Diseño gráfico &nbsp&nbsp||&nbsp&nbsp 
+                Diseño web (frontend) &nbsp&nbsp||&nbsp&nbsp UX/UI</p>
+              <p>Estudiante de Diseño Multimedial en la Facultad de Bellas Artes, UNLP</p>
+              <p>Egresada del Bachillerato de Bellas Artes de la UNLP, con el título de Bachiller
+                en Artes Plásticas, orientación Experimental</p>
+            </div>
+
+          </div>
+        </div>
+
+        <button class="botonMas2" style="float: right" onclick="window.location.href='curriculum.html'"><span>ver currículum </span></button>
+
+      </div>
+    </div>
+
+    <!-- Bloque Comision ------------------------------------------------------------------------------------------------------>
+    <!--
+    <div class="comision section">
+
+      <h2 id="CMS">Comisiones / Stickers <button class="botonMas" style="float: right"><span> solicitar/comprar </span></button> </h2>
+
+      <div class="contenComis">
+
+        <div class="fondoComis">
+
+          <div class="column3" style="max-width:55%">
+
+            <div class="texto2">
+              <p>Las comisiones son retratos hechos por encargo o a pedido. Vos podés elegir el estilo y
+                encuadre del dibujo, me enviás una imagen de referencia, y yo lo hago. Puede ser de personas,
+                mascotas, o ambos a la vez. </p> 
+              <p>Una vez terminado, recibirás a tu mail una copia digital del
+                archivo, y si la técnica lo amerita, te será enviado el original físico por MercadoEnvíos 
+                (el costo del envío irá por cuenta del cliente). </p>
+              <p style="margin-bottom:1.5%">Además, también ofrezco una gran variedad de stickers, con distintas temáticas y tamaños,
+                los cuales podés comprar por packs o de forma individual.</p>
+            </div>
+
+          </div>
+
+          <div class="column3" style="max-width:44.5%">
+
+            <div class="imgComis">
+              <img src="assets/img/comisEjemplo.png">
+              <p>Algunos ejemplos de retratos y stickers. Podés ver más en mi <a href="#PRF" id="btnPort" onclick="selectContent(this.id)"> portfolio</a>.</p>
+            </div>
+
+          </div>
+        </div>
+
+        <button class="botonMas2" style="float: right"><span> solicitar/comprar </span></button>
+
+      </div>
+    </div>
+
+    -->
+  
+  </div> 
+
+  <script src="assets/js/jquery-3.3.1.min.js"></script>
+  <script src="assets/js/modal.js"></script>
+  <script src="assets/js/elegirBoton.js"></script>
+  <script src="assets/js/animatedfondo.js"></script>
+
+  </body>
+
+
+</html>

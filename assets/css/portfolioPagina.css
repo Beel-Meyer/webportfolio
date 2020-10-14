@@ -1,0 +1,99 @@
+
+hr{
+  border: 0; 
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 10%;
+  height: .2%; 
+  background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), #8c8b8b, rgba(0,0,0,0));
+  background-image: -moz-linear-gradient(left, rgba(0,0,0,0), #8c8b8b, rgba(0,0,0,0));
+  background-image: -ms-linear-gradient(left, rgba(0,0,0,0), #8c8b8b, rgba(0,0,0,0));
+  background-image: -o-linear-gradient(left, rgba(0,0,0,0), #8c8b8b, rgba(0,0,0,0));
+}
+
+.textofil{
+  margin-top:15%;
+  margin-left: 7%;
+  margin-bottom: 3%;
+  /* font-family: 'Staatliches', cursive; */
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-size: 1.2vw;
+  color: #818181;
+}
+
+.portfMain{
+    font-size: 1.5vw;
+    float: right;
+    max-width: 87%;
+}
+
+.portfMain h2{
+  font-family: 'Rambla', sans-serif;
+  font-size: 3vw;
+  padding-top: .5%;
+  padding-bottom: .5%;
+  margin-top: 2%;
+  margin-bottom: 0%;
+}
+
+.portfolioPag {
+    margin: 0px;
+    padding: 0px;
+}
+
+.mensaje{
+  position: relative;
+  width: 89%;
+  margin-left: 4%;
+  margin-bottom: 1.5%;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-size: 1.2vw;
+  background-color: rgba(223, 138, 26, 0.301);
+  padding:.05%;
+  padding-left: 2%;
+  border-radius: 15px;
+}
+
+.cerrar {
+  color: white;
+  position: absolute;
+  top: .5%;
+  right: 1.2%;
+  font-size: 2vw;
+  font-weight: bold;
+}
+
+.cerrar:hover,
+.cerrar:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.titPorfolio {
+  background-image: linear-gradient(to right, rgb(212, 121, 2) .1% , rgb(223, 138, 26) 1%, rgba(223, 138, 26, 0.11) 90%);
+  padding-left: 4.5%;
+  padding-top: .5%;
+  padding-bottom: .5%;
+  margin-bottom: 2%;
+}
+
+.titPorfolio p {
+  margin: 0px;
+  margin-bottom: .5%;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+#ListaTec, #ListaCon{
+  display: none;
+  margin-bottom: 5%;
+}
+
+#ListaTec li, #ListaCon li{
+  margin-left: 8%;
+  padding: .5%;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-size: 1.3vw;
+  color: #818181;
+
+}

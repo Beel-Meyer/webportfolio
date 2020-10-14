@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>-eme-</title>
+  <link rel='shortcut icon' href='assets/img/favicon.png' type='image/x-icon' />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+  <link href="https://fonts.googleapis.com/css?family=Staatliches" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Rambla:700|Roboto+Condensed:400,400i" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+
+<body>
+  <canvas></canvas>
+  <div class="sidenav">
+
+     <div class="profile"> <img src="assets/img/toonme.png" alt="autorretrato" width="60%" onclick="window.location.href='index.html'" ></div>
+
+     <div class="logo"> <img src="assets/img/logo.png" alt="logo" width="320%" onclick="window.location.href='index.html'" ></div>
+
+     <ul>
+       <li id="btnInicio" class="button button1" onclick="window.location.href='index.html#INF'"> Inicio </li>
+     </ul>
+
+     <hr>
+
+     <ul style="margin-top:15%">
+        <li id="btnPers" class="buttonA buttonA1" onclick="selectContent(this.id)">Personal</li>
+        <li id="btnForm" class="buttonA buttonA1" onclick="selectContent(this.id)">Formación</li>
+        <li id="btnTec" class="buttonA buttonA1" onclick="selectContent(this.id)" style="font-size:1.6vw">Conocimientos Técnicos</li>
+        <li id="btnExp" class="buttonA buttonA1" onclick="selectContent(this.id)">Experiencia</li>
+      </ul>
+
+
+     <div class="ex1">
+      <i class="fa fa-facebook fa-2x" aria-hidden="true"></i>
+      <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
+     </div>
+
+     <div class="piepag"> <p>Hecho por Meyer, M. Belén</p> <p style="font-size: .7vw">con colaboración de Moradillo, Federico</p> <p> 2019 © </p></div>
+         
+  </div>
+      
+  <div class="infoMain">
+
+    <!-- Bloque Info - - - - - - - - - - - - - - - - - - - - - - - -->
+    <div class="infoPag">
+
+      <div class="titInfo"  id="PERS">
+<!--         <h2>    Información </h2>
+        <p> <b>Acá podés ver mi formación profesional y datos personales.</b></p>    --> 
+        <div class="InfoPersonal">
+          <div class="text"> 
+            <h2> Meyer, María Belén </h2>
+            <span> DNI 40.062.997</span>
+            <p> <i class="fa fa-birthday-cake" aria-hidden="true"></i> &nbsp 11/Jun/1997 &nbsp || &nbsp 23 años
+            &nbsp &nbsp &nbsp <i class="fa fa-home" aria-hidden="true"></i> &nbsp La Plata - Buenos Aires - Argentina
+            &nbsp &nbsp &nbsp <i class="fa fa-envelope" aria-hidden="true"></i> &nbsp beel.meyer@gmail.com</p>
+            <p> Actualmente soy estudiante universitaria. El trabajo en equipo se me da bien, tanto para liderar como para
+              seguir órdenes. Suelo tener buenas ideas y soluciones a los problemas y, si me propongo una meta, la cumplo. 
+              En lo personal, soy ligeramente introvertida, y me gustan mucho los gatos y el café.</p>
+          </div>
+        <img src="assets/img/foto cv 2020.png">
+
+        <a href="assets/CV MEYER 2020.pdf" download="CV_Meyer">
+          <i class="fa fa-download" aria-hidden="true"></i> &nbsp Descargar Currículum
+        </a>
+        </div>
+      </div>
+
+      <div class="contenInfo2">
+
+          <div class="profesional" id="FORM">
+            <h2>Formación Académica</h2>
+            <h3> Estudios Secundarios</h3>
+            <p> Estado: Completos</p>
+            <p> Establecimiento: Bachillerato de Bellas Artes “Prof. Francisco A. De Santo” - UNLP</p>
+            <p> Título: Bachiller en Artes Visuales (Escultura – Especialidad Producción Experimental)</p>
+            <h3> Estudios Universitarios</h3>
+            <p> Carrera: Licenciatura en Diseño Multimedial</p>
+            <p> Estado: En curso (cuarto año)</p>
+            <p> Establecimiento: Facultad de Bellas Artes - UNLP</p>
+            <h3> Idiomas</h3>
+            <p> Español (nativo)</p>
+            <p> Inglés (avanzado)</p>
+            <p> Italiano (básico)</p>
+            <p> Portugués (básico)</p>
+          </div>
+
+          <div class="tecnica" id="CONO">
+            <h2> Conocimientos Técnicos</h2>
+            <h3> Edición de Imagen, Video y Sonido</h3>
+            <p> Adobe Photoshop - Adobe Illustrator - Adobe Premiere - Adobe Audition</p>
+            <p> FireAlpaca </p>
+            <p> Paint Tool SAI </p>
+            <p> Audacity</p>
+            <h3> Programación y desarrollo Web</h3>
+            <p> Processing</p>
+            <p> HTML, CSS y JS</p>
+            <h3> Maquetado y prototipado</h3>
+            <p> Invision </p>
+            <p> MarvelApp</p>
+            <p> Balsamiq</p>
+          </div>
+
+          <div class="experiencia" id="EXPE">
+            <h2> Experiencia</h2>
+            <h3> Ilustración y Diseño Gráfico</h3>
+            <p> Trabajos particulares (2015 - Actualidad)</p>
+            <p> Trabajos de diseño Freelance para "The Society for Protective Coatings: Argentina Chapter" (2020)</p>
+            <h3> Edición y Producción Audiovisual</h3>
+            <p> Trabajos particulares (2014 - Actualidad)</p>
+            <p> Dirección del cortometraje <a href="https://www.youtube.com/watch?v=shlSZT8WG3M&t="> "Caso Perdido"</a>
+              en el marco de la cátedra Tecnología Multimedial II (2017) </p>
+            <h3> Programación y Desarrollo Web</h3>
+            <p> Trabajos particulares (2016 - Actualidad)</p>
+            <h3> Atención al Público</h3>
+            <p> Participación a cargo de stands en eventos (2016 - Actualidad)</p>
+            <h3> Producción de Historieta</h3>
+            <p> Participación en tres números de la revista "A Tientas"</p>
+            <p> Coautora, Ilustradora de Tapa y Contratapa, y Editora de la historieta “Los Muchachos”</p>
+          </div>
+
+      </div>
+
+      <!-- <button class="botonMas2" style="float: right; margin-right: -.5%" onclick="window.location.href='portfolio.html'"><span>ver más trabajos </span></button> -->
+      <a class="descarga" href="assets/CV MEYER.pdf" download="CV_Meyer">
+        <i class="fa fa-download" aria-hidden="true"></i> &nbsp Descargar currículum
+      </a>
+
+    </div>
+  </div> 
+
+<script src="assets/js/jquery-3.3.1.min.js"></script>
+<script src="assets/js/elegirBoton.js"></script>
+<script src="assets/js/animatedfondo.js"></script>
+<script src="assets/js/info.js"></script>
+
+</body>
+
+
+</html>

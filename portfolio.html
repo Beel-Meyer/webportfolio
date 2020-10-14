@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>-eme-</title>
+  <link rel='shortcut icon' href='assets/img/favicon.png' type='image/x-icon' />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+  <link href="https://fonts.googleapis.com/css?family=Staatliches" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Rambla:700|Roboto+Condensed:400,400i" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+
+<body>
+  <canvas></canvas>
+  <div class="sidenav">
+
+     <div class="profile"> <img src="assets/img/toonme.png" alt="autorretrato" width="60%" onclick="window.location.href='index.html'" ></div>
+
+     <div class="logo"> <img src="assets/img/logo.png" alt="logo" width="320%" onclick="window.location.href='index.html'" ></div>
+
+     <ul>
+<!--        <li id="btnPort" class="button button1" onclick="selectContent(this.id)">Portfolio</li>
+       <li id="btnInfo" class="button button1" onclick="selectContent(this.id)">Info</li>
+       <li id="btnCom" class="button button1" onclick="selectContent(this.id)">Comisiones</li> -->
+       <li id="btnInicio" class="button button1" onclick="window.location.href='index.html'"> Inicio </li>
+     </ul>
+
+     <hr>
+
+     <p class="textofil"> <i class="fa fa-sliders" aria-hidden="true"></i> &nbspFiltrar por </p>
+     <br>
+
+     <ul>
+        <li id="filtroTec" class="buttonF button1F"> Técnica </li>
+          <ul id="ListaTec" class="second">
+            <li> <p>Digital</p> </li><br>
+            <li> <p>Acuarela</p> </li><br>
+            <li> <p>Lápiz / Tinta</p>  </li><br>
+            <li> <p>Varios</p> </li>
+          </ul>
+        <li id="filtroCon" class="buttonF button1F"> Contenido </li>
+          <ul id="ListaCon" class="second">
+            <li> <p> Personas / Perosnajes </p> </li> <br>
+            <li> <p> Animales </p></li> <br>
+            <li> <p> Paisajes / Escenas </p> </li> <br>
+            <li> <p> Varios </p></li>
+          </ul>
+      </ul>
+
+
+     <div class="ex1">
+      <i class="fa fa-facebook fa-2x" aria-hidden="true"></i>
+      <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
+     </div>
+
+     <div class="piepag"> <p>Hecho por Meyer, M. Belén</p> <p style="font-size: .7vw">con colaboración de Moradillo, Federico</p> <p> 2019 © </p></div>
+         
+  </div>
+      
+  <div class="portfMain">
+
+    <!-- Bloque Portfolio - - - - - - - - - - - - - - - - - - - - - - - -->
+    <div class="portfolioPag">
+
+      <div class="titPorfolio">
+        <h2>    Portfolio </h2>
+        <p> <b>Acá podés ver casi todos los trabajos que hice hasta la fecha.</b></p>
+    
+      </div>
+
+      <div class="mensaje">
+        <p> <i class="fa fa-exclamation-circle" aria-hidden="true"></i> &nbsp&nbspPodés filtrar las producciones por sus técnicas o sus contenidos.
+            <span id="cerrarMsj" class="cerrar">&times;</span>  </p>
+      </div>
+
+      <div class="imgPortfolio"> 
+          
+        <div class="row">
+
+          <div class="column">
+            <img src="dibujos/thumbnail4.png" onclick="/* openModal(); */currentSlide(1)" class="imagenPortfolio">
+            <img src="dibujos/thumbnail12.png" onclick="/* openModal(); */currentSlide(4)" class="imagenPortfolio">
+            <img src="dibujos/thumbnail5.png" onclick="/* openModal(); */currentSlide(6)" class="imagenPortfolio">
+            <img src="dibujos/thumbnail2.png" onclick="/* openModal(); */currentSlide(2)" class="imagenPortfolio">
+            <img src="dibujos/thumbnail13.png" onclick="/* openModal(); */currentSlide(3)" class="imagenPortfolio">
+            <img src="dibujos/thumbnail3.png" onclick="/* openModal(); */currentSlide(5)" class="imagenPortfolio">
+          </div>
+
+          <div class="column">
+            <img src="dibujos/thumbnail2.png" onclick="/* openModal(); */currentSlide(2)" class="imagenPortfolio">
+            <img src="dibujos/thumbnail7.png" onclick="/* openModal(); */currentSlide(7)" class="imagenPortfolio">
+            <img src="dibujos/thumbnail13.png" onclick="/* openModal(); */currentSlide(3)" class="imagenPortfolio">
+            <img src="dibujos/thumbnail3.png" onclick="/* openModal(); */currentSlide(5)" class="imagenPortfolio">
+            <img src="dibujos/thumbnail4.png" onclick="/* openModal(); */currentSlide(1)" class="imagenPortfolio">
+            <img src="dibujos/thumbnail5.png" onclick="/* openModal(); */currentSlide(6)" class="imagenPortfolio">
+          </div>
+
+          <div class="column" style=" float:right">
+            <img src="dibujos/thumbnail13.png" onclick="/* openModal(); */currentSlide(3)" class="imagenPortfolio">
+            <img src="dibujos/thumbnail3.png" onclick="/* openModal(); */currentSlide(5)" class="imagenPortfolio">
+            <img src="dibujos/thumbnail9.png" onclick="/* openModal(); */currentSlide(8)" class="imagenPortfolio">
+            <img src="dibujos/thumbnail2.png" onclick="/* openModal(); */currentSlide(2)" class="imagenPortfolio">
+            <img src="dibujos/thumbnail3.png" onclick="/* openModal(); */currentSlide(5)" class="imagenPortfolio">
+            <img src="dibujos/thumbnail12.png" onclick="/* openModal(); */currentSlide(4)" class="imagenPortfolio">
+          </div>
+              
+        </div>
+
+        <div id="myModal" class="modal" >
+          <span id="closeBtn" class="close cursor">&times;</span>
+
+          <div class="modal-content">
+        
+            <div class="mySlides">
+              <img src="dibujos/dib4.png" class="imagenModal">
+            </div>
+        
+            <div class="mySlides">
+              <img src="dibujos/dib2.png" class="imagenModal">
+            </div>
+        
+            <div class="mySlides">
+              <img src="dibujos/dib13.png" class="imagenModal">
+            </div>
+            
+            <div class="mySlides">
+              <img src="dibujos/dib12.png" class="imagenModal">
+            </div>
+            <div class="mySlides">
+              <img src="dibujos/dib3.png" class="imagenModal">
+            </div>
+        
+            <div class="mySlides">
+              <img src="dibujos/dib5.png" class="imagenModal">
+            </div>
+        
+            <div class="mySlides">
+              <img src="dibujos/dib7.png" class="imagenModal">
+            </div>
+            
+            <div class="mySlides">
+              <img src="dibujos/dib9.png" class="imagenModal">
+            </div>
+            
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> 
+
+<script src="assets/js/jquery-3.3.1.min.js"></script>
+<script src="assets/js/modal.js"></script>
+<script src="assets/js/elegirBoton.js"></script>
+<script src="assets/js/animatedfondo.js"></script>
+<script src="assets/js/portfolio.js"></script>
+
+</body>
+
+
+</html>
