@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>-eme-</title>
+  <link rel='shortcut icon' href='assets/img/favicon.png' type='image/x-icon' />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+  <link href="https://fonts.googleapis.com/css?family=Staatliches" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Rambla:700|Roboto+Condensed:400,400i" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+  <canvas></canvas>
+  <div class="sidenav">
+
+     <div class="profile"> <img src="assets/img/autorretrato.png" alt="autorretrato" width="60%" onclick="window.location.href='index.html'" ></div>
+
+     <div class="logo"> <img src="assets/img/logo.png" alt="logo" width="320%" onclick="window.location.href='index.html'" ></div>
+
+     <ul>
+       <li id="btnPort" class="button button1" onclick="selectContent(this.id)">Portfolio</li>
+       <li id="btnInfo" class="button button1" onclick="selectContent(this.id)">Info</li>
+       <li id="btnCom" class="button button1" onclick="selectContent(this.id)">Comisiones</li>
+     </ul>
+
+     <div class="ex1">
+      <i class="fa fa-facebook fa-2x" aria-hidden="true"></i>
+      <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
+     </div>
+
+     <div class="piepag"> <p>Hecho por Meyer, M. Belén</p> <p style="font-size: .7vw">con colaboración de Moradillo, Federico</p> <p> 2019 © </p></div>
+         
+  </div>
+      
+  <div class="ventMain">
+
+    <div class="titVentas"></div>
+
+    <div class="ventasCont">
+
+        <ul class="tabs">
+          <li class="tab-link current" data-tab="tab-1">Comisiones</li>
+          <li class="tab-link" data-tab="tab-2">Stickers</li>
+        </ul>
+        
+        <div id="tab-1" class="tab-content current">
+
+          <div class="ComisImag">
+
+            <div class="RadContainer">
+
+              <ul>
+              <li>
+                <input type="radio" id="rad1" name="selector">
+                <label for="rad1">Digital</label>
+
+                <div class="check"></div>
+              </li>
+
+              <li>
+                <input type="radio" id="rad2" name="selector">
+                <label for="rad2">Lápiz/Tinta</label>
+
+                <div class="check"><div class="inside"></div></div>
+              </li>
+
+              <li>
+                <input type="radio" id="rad3" name="selector">
+                <label for="rad3">Acuarela</label>
+
+                <div class="check"><div class="inside"></div></div>
+              </li>
+
+               <li>
+                  <input type="radio" id="rad4" name="selector">
+                  <label for="rad4">Pastel</label>
+
+                  <div class="check"></div>
+              </li>
+              </ul>
+            </div>
+
+            <div class="RadImag">
+              <img src="dibujos/dib1.png" id="selecUno" style="display: block;">
+              <img src="dibujos/dib6.png" id="selecDos">
+              <img src="dibujos/dib10.png" id="selecTres">
+              <img src="dibujos/dib6.png" id="selecCuatro">
+
+            </div>
+
+          </div>
+
+          <div class="menuContainer">
+
+            <div class="preciosCom"> 
+              <p> Estilo (Tal estilo)</p> <p class="precio"> $ XX </p> <br>
+              <p> Tamaño (Tal tamaño)</p> <p class="precio"> $ XX </p> <br>
+              <P style="margin-top: -2%"> Personas &nbsp&nbsp </P>
+              <form class='formMasMenos1' method='POST' action='#'>
+                  <input type='button' value='-' class='qtyminus' field='quantity1' />
+                  <input type='text' name='quantity1' value='0' class='qty' />
+                  <input type='button' value='+' class='qtyplus' field='quantity1' />
+              </form> 
+              <p>&nbsp&nbsp </p> <p class="precio"> $ XX </p><br>
+              <p> Animales &nbsp&nbsp</p>
+              <form class='formMasMenos2' method='POST' action='#'>
+                  <input type='button' value='-' class='qtyminus' field='quantity2' />
+                  <input type='text' name='quantity2' value='0' class='qty' />
+                  <input type='button' value='+' class='qtyplus' field='quantity2' />
+              </form>
+              <p>&nbsp&nbsp </p> <p class="precio"> $ XX </p>
+            </div>
+
+            <h3> Total </h3> <h3 class="precio"> $ XX</h3>
+
+            <div class="subirImagen">
+              <input type="file" multiple id="fileInput" name="fileInput"/>
+              <button class="subirBoton" onclick="chooseFile()"> Subir imágen/es de referencia </button>
+            </div>
+
+            
+
+            
+
+          </div>
+
+        </div>
+
+
+        <div id="tab-2" class="tab-content">
+           Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </div>
+
+    </div>
+  
+  </div> 
+
+  <script src="assets/js/jquery-3.3.1.min.js"></script>
+  <script src="assets/js/elegirBoton.js"></script>
+  <script src="assets/js/animatedfondo.js"></script>
+  <script src="assets/js/ventas.js"></script>
+
+  </body>
+
+
+</html>

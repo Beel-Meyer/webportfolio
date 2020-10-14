@@ -10,6 +10,7 @@
 @import url('botonesRedes.css');
 @import url('portfolioPagina.css');
 @import url('infoPagina.css');
+@import url('ventasTabs.css');
 
 html {
   scroll-behavior: smooth;

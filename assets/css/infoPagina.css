@@ -44,25 +44,13 @@ hr{
     margin-bottom: -1%;
   }
 
-  .contenInfo{
-    max-width: 90%;
-    /*margin-left: 9%;*/
-    margin-top: -.5%;
-    padding-left: .5%;
-    padding-right: .5%;
-    /* padding-top: .5%; */
-    padding-bottom: 5%;
-    margin-bottom: 3.5%;
-  }
-
-  .contenInfo2{
+  .infoCont{
     max-width: 80%;
     margin-left: 9%;
     margin-top: -.5%;
     padding-left: .5%;
     padding-right: .5%;
     /* padding-top: .5%; */
-    padding-bottom: 5%;
     margin-bottom: 3.5%;
   }
 

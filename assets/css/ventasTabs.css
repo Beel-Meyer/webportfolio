@@ -1,0 +1,76 @@
+@import url('ventasConten.css');
+
+hr{
+  border: 0; 
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 10%;
+  height: .2%; 
+  background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), #8c8b8b, rgba(0,0,0,0));
+  background-image: -moz-linear-gradient(left, rgba(0,0,0,0), #8c8b8b, rgba(0,0,0,0));
+  background-image: -ms-linear-gradient(left, rgba(0,0,0,0), #8c8b8b, rgba(0,0,0,0));
+  background-image: -o-linear-gradient(left, rgba(0,0,0,0), #8c8b8b, rgba(0,0,0,0));
+}
+
+.ventMain{
+  font-size: 1.5vw;
+  float: right;
+  width: 87%;
+}
+
+.ventasCont {
+  max-width: 90%;
+  margin-left: 4%;
+  margin-top: -4.3%;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+.titVentas {
+  background-image: linear-gradient(to right, rgb(212, 121, 2) .1% , rgb(223, 138, 26) 1%, rgba(223, 138, 26, 0.11) 90%);
+  padding-left: 4.5%;
+  padding-top: 6%;
+}
+
+
+ul.tabs{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  width: 100%;
+  font-size: 2vw;
+}
+
+ul.tabs li{
+  background: none;
+  color: #222;
+  display: inline-block;
+  padding: .65% 1.4%;
+  padding-bottom: .96%;
+  width: 15%;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 5px 5px 0px 0px;
+}
+
+ul.tabs li.current{
+  background-color: rgba(255, 255, 255, 0.466);
+  color: #222;
+  font-family: 'Rambla', sans-serif;
+  padding: .8% 1.4%;
+}
+
+.tab-link:hover {
+  background-color: rgba(0, 0, 0, 0.26);
+}
+
+.tab-content {
+  display: none;
+  padding: .5% 1%;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.466);
+}
+
+.tab-content.current{
+  display: inherit;
+  position: relative;
+}
